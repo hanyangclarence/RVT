@@ -12,7 +12,7 @@ import signal
 from datetime import datetime
 
 import torch
-from torch.utils.tensorboard import SummaryWriter
+from tensorboardX import SummaryWriter
 
 from torch.nn.parallel import DistributedDataParallel as DDP
 
